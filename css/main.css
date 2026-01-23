@@ -26,9 +26,16 @@ body {
   color: white;
   padding: 1rem;
   display: flex;
-  align-items: end;
+  flex-direction: column;
+  align-items: flex-start;
   border-radius: 8px;
+  margin-top: auto;
   order: 3;
+}
+
+.emoji a:hover {
+  background-color: #a73ae1;
+  color: rgb(0, 0, 0);
 }
 
 .icon {
